@@ -3,7 +3,7 @@ bin/
 lib/
 msg_gen/
 srv_gen/
-msg/*Action.msg
+msg/*Action.msgfrom time import time
 msg/*ActionFeedback.msg
 msg/*ActionGoal.msg
 msg/*ActionResult.msg
@@ -47,3 +47,5 @@ qtcreator-*
 CATKIN_IGNORE
 
 .backup
+
+/secrets/
